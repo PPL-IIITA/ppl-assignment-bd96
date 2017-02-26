@@ -1,0 +1,14 @@
+digraph "gifts.hpp"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="gifts.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="gifts.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$gifts_8cpp.html"];
+  Node1 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="h_c.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$h__c_8hpp.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="h_c.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$h__c_8cpp.html"];
+  Node3 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="q2.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$q2_8cpp.html"];
+}
