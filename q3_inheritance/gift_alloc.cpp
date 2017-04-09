@@ -77,8 +77,3 @@ void gift_alloc::print(gift_alloc GADD[],int count)
 	}
 }
 
-void gift_alloc:: xyz()
-{
-	gifts::prints();
-	cout << "Hello from dervied" << endl;
-}
