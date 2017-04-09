@@ -35,10 +35,6 @@ doxygen
   
 ## HOW TO BUILD AND RUN
 
->Change Directory to q3_inheritance
-```
-cd q3_inheritance
-```
 
 >Generate random input for boys and girls
 ```

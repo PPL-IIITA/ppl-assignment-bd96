@@ -4,64 +4,10 @@ ROLL No - IIT2015076
 Section - A
 
 ## OVERVIEW
-> 1) The project currenty solves questions 3 to 6.  
+> 1) The project currenty solves questions 1 to 2.  
 > 2) The documentation of the project has been generated. To view documentation, go to ppl/html/index.html  
-> 3) The class diagram for all the questions (combined) is in q3_inheritance.pdf.  
+> 3) The class diagram for all the questions (combined) is in Class Diagram.pdf.  
 > 4) All the source files, input-output files are available.  
-  
-## HOW TO BUILD AND RUN
-
->Generate random input for boys and girls
-```
-g++ boy_girl_gen.cpp
-./a.out
-```
->Generate random gifts.
-```
-g++ gifts_gen.cpp
-./a.out
-```
->Create Library
-```
-g++ -c boy.cpp
-g++ -c girl.cpp
-g++ -c Input.cpp
-g++ -c couples.cpp
-g++ -c gift_alloc.cpp
-g++ -c gifts.cpp
-g++ -c h_c.cpp
-ar rvs lib_load *.o 
-```
-### Question - 3
-
->To run Question 3
-```
-g++ q3.cpp lib_load
-./a.out
-```
->k most happy and compatible couples will be stored in k_Couples.txt  
-
->To run Question 4
-```
-
-g++ q4.cpp lib_load
-./a.out
-```
->Couples formed after breakup are stored in couples_afterbreakup.txt
-
->To run Question 5
-```
-g++ q5.cpp lib_load
-./a.out
-```
->k most happy and compatible couples will be stored in k_Couples.txt  
-
->To run Question 6
-```
-g++ q6.cpp lib_load
-./a.out
-```
->Couples formed after breakup are stored in couples_afterbreakup.txt
 
 ## Generate Documentaion
 
@@ -81,8 +27,46 @@ doxygen -g
 doxygen
 ```
 >To view documentation open ppl/html/index.html
+  
+## HOW TO BUILD AND RUN
 
-## Class Diagram
+>Generate random input for boys and girls
+```
+g++ boy_girl_gen.cpp
+./a.out
+```
+>Generate random gifts.
+```
+g++ gifts_gen.cpp
+./a.out
+```
+>Create Library
+```
+g++ -c couples.cpp
+g++ -c gift_alloc.cpp
+g++ -c gifts.cpp
+g++ -c h_c.cpp
+ar rvs lib_load *.o 
+```
+### Question - 1
 
->The class diagram is generated using visual-paradigm.
->To view the clas diagram, open q3.inheritance.jpg
+>To run Question 1
+```
+g++ q1.cpp lib_load
+./a.out
+```
+>Couples are stored in output.txt  
+
+>To run Question 2
+```
+
+g++ q2.cpp lib_load
+./a.out
+```
+>k most happy and compatible couples will be stored in k_Couples.txt  
+
+
+>Change Directory to q3_inheritance
+```
+cd q3_inheritance
+```
