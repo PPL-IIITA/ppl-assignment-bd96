@@ -1,0 +1,10 @@
+4 MOST HAPPY COUPLES
+Boy 2 Girl 5 Happiness: 4317.07
+Boy 16 Girl 8 Happiness: 1967.09
+Boy 11 Girl 7 Happiness: 8.71828
+Boy 8 Girl 4 Happiness: 6.62137
+4 MOST COMPATIBLE COUPLES
+Boy 1 Girl 8 Compatibility: 7635
+Boy 8 Girl 4 Compatibility: 5818
+Boy 28 Girl 10 Compatibility: 4631
+Boy 2 Girl 5 Compatibility: 4496
